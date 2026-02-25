@@ -1,22 +1,67 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+/* Body */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-    background-color: #fff;
-    margin: 0;
-    padding: 2em;
-    height: 90vh;
-    background: url(../img/icon.png) 95% 95% no-repeat;
-    background-size: 20vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: white;
+  text-align: center;
 }
-h1 {
-    font-size: 1.5em;
-    font-weight: normal;
-    margin: 0;
-    padding: 0;
+
+/* Header */
+header {
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
 }
+
+/* Main container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+/* Card */
+.card {
+  background: white;
+  color: #333;
+  width: 280px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Buttons */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background: #0d6efd;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #6610f2;
+}
+
+/* Text */
 p {
-    width: 80vw;
-}
-a {
-    color: #369;
+  line-height: 1.5;
 }
