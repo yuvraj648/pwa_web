@@ -1,0 +1,20 @@
+{
+  "name": "PWA Website",
+  "short_name": "PWA",
+  "description": "Progressive Web App hosted on GitHub Pages",
+
+  "scope": "/pwa_web/",
+  "start_url": "/pwa_web/",
+
+  "background_color": "#ffffff",
+  "theme_color": "#0d6efd",
+  "display": "standalone",
+
+  "icons": [
+    {
+      "src": "/pwa_web/img/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
